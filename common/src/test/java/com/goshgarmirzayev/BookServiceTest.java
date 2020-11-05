@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Assertions;
 import javax.inject.Inject;
 
 @MicronautTest
-public class GreendecorTest {
+public class BookServiceTest {
 
     @Inject
     EmbeddedApplication application;
