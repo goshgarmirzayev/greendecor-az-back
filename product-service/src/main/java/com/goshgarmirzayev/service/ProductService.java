@@ -25,7 +25,7 @@ public class ProductService {
             }else{
                 apiResponse.setCode(ApiResponseEnum.NO_DATA_FOUND.getValue());
                 apiResponse.setMessageEn("No Data Found");
-                apiResponse.setMessageAZ("Gec bir data tapilmadi");
+                apiResponse.setMessageAZ("Hec bir data tapilmadi");
             }
         } catch (Exception e){
             e.printStackTrace();
